@@ -175,7 +175,7 @@ div.col-4{
 .images{
      height: 450px; 
      text-align: center;
-       animation: scroll 7s ease-in-out infinite; 
+       animation: scroll 7s linear infinite; 
       white-space: nowrap;
 }
  .green-border{
@@ -207,7 +207,7 @@ div.col-4{
 
 @keyframes scroll {
     0%{
-        transform: translateY(30px);
+        transform: translateY(-40px);
     }
     100%{
         transform: translateY(-850px);
