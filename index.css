@@ -113,10 +113,12 @@ body {
     background-color: inherit;
     padding: 20px;
     font-size: 13px;
+    margin-left: 10px;
 }
 
 .form-control::placeholder{
     color: #ffffff;
+    margin-right: 10px;
 }
 
 .btn-dark {
@@ -171,9 +173,9 @@ div.col-4{
     box-shadow: 0 1px 0.5px #f0f0f0;
 }
 .images{
-     height: 500px; 
+     height: 450px; 
      text-align: center;
-       animation: scroll 5s linear infinite; 
+       animation: scroll 7s ease-in-out infinite; 
       white-space: nowrap;
 }
  .green-border{
@@ -205,10 +207,10 @@ div.col-4{
 
 @keyframes scroll {
     0%{
-        transform: translateY(500px);
+        transform: translateY(30px);
     }
     100%{
-        transform: translateY(-700px);
+        transform: translateY(-850px);
     }
 }
 .section-3 {
