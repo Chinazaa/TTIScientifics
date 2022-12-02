@@ -1,0 +1,293 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    padding: 20px 30px;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+.header {
+    background-image: url(header-img.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.35);
+  background-blend-mode: color;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: -1; */
+  
+}
+.btn-outline-light{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    width: 130px;
+}
+
+.joint-header {
+    margin: 50px;
+    padding-bottom: 3px;
+}
+#scientific-products{
+    color: #B3D1FF;
+}
+#reason{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #ffffff;
+}
+.header-paragraph{
+    font-style: medium;
+    font-weight: 400;
+    color: #ffffff;
+    size: 22px;
+}
+
+.search-btn{
+    background-color: #014BBA;
+    color: #ffffff;
+    padding: 10px;
+    width: 90px;
+    font-weight: 500;
+    font-size: small;
+}
+.nav-link{
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link.active{
+ color: #014BBA;
+ font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    margin-left: -35px;
+}
+
+#contact-info{
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: none; 
+}
+.contact-us{
+    font-weight: 500;
+    font-size: 15px;
+    color:  #00132E;
+    margin-bottom: 0;
+   
+}
+.contactUs-text{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.contactUs-hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.search-input {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.form-control {
+    display: inline-block;
+    width: 360px;
+    height: 35px;
+    background-color: inherit;
+    padding: 20px;
+    font-size: 13px;
+}
+
+.form-control::placeholder{
+    color: #ffffff;
+}
+
+.btn-dark {
+    width: 100px;
+    height: 35px;
+}
+
+.line {
+    width: 100px;
+    border-top: 2px solid #025FEA;
+    
+}
+
+.h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+#seperation{
+    margin-top: 5px;
+}
+
+.left-text{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.all-products-btn {
+    width: 150px;
+    background-color: #025FEA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 11px;
+}
+.img-fluid{
+     width: 210px;
+    
+}
+.img-text{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: -15px;
+}
+div.col-4{
+    padding: 0;
+}
+
+.overflow{
+    overflow: hidden;
+    box-shadow: 0 1px 0.5px #f0f0f0;
+}
+.images{
+     height: 500px; 
+     text-align: center;
+       animation: scroll 5s linear infinite; 
+      white-space: nowrap;
+}
+ .green-border{
+    border: 1px solid #00C7FF;
+    border-radius: 12px;
+    width: fit-content;
+    height: 200px;
+    margin-right:15px ;
+    margin-bottom: 15px;
+}
+
+.purple-border{
+    border: 1px solid #9345E6;
+    border-radius: 12px;
+    width: fit-content;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.blue-border{
+    border: 1px solid #0B48F0;
+    border-radius: 12px;
+    width: fit-content;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+} 
+
+@keyframes scroll {
+    0%{
+        transform: translateY(500px);
+    }
+    100%{
+        transform: translateY(-700px);
+    }
+}
+.section-3 {
+    background-color: #E5EFFC;
+    width: 70%;
+     padding: 30px; 
+    border-radius: 32px;
+    overflow-x: auto;
+
+}
+.section3-h3{
+    color: #002B6A;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.img2-text{
+    font-size: 13px;
+    font-weight: 400;
+}
+.numbers{
+border: 1px solid white;
+display: inline-block;
+padding: 5px 10px;
+border-radius: 50%;
+background-color: white;
+font-size: small;
+font-weight: 600;
+}
+
+.footer {
+    background-color: #002B6A;
+    color: #ffffff;
+    padding: 30px;
+}
+
+.ft-logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.logo-text{
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 9px;
+}
+
+a {
+    color: #ffffff;
+}
+
+uL {
+    list-style: none;
+    padding: 0;
+}
+
+.ft-icons {
+
+    padding: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    @keyframes scroll {
+        0%{
+            transform: translateX(500px);
+        }
+        100%{
+            transform: translateX(-320px);
+        }
+    }
+    .overflow{
+        box-shadow: none;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        margin-left: 15px;
+    }
+    #reason{
+        font-size: 1.5rem;
+    }
+}

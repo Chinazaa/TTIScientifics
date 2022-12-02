@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>science website</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light px-0 px-sm-4">
+          <div class="container-fluid px-1">
+            <a class="navbar-brand" href="#"
+              ><img src="logo.png" alt="logo" width="50px" />TTI Scientifics</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+              </ul>
+              <button
+                id="btn"
+                onclick="show()"
+                class="btn btn-outline-light"
+                type="submit"
+              >
+                Contact us
+              </button>
+              <div id="contact-info" class="position-absolute top-100 end-0">
+                <div>
+                  <p class="contactUs-text">Send an inquiry via mail to</p>
+                  <p class="contact-us">
+                    <img src="envelope.svg" alt="" />
+                    <span class="ps-2">Nwakorie@ttiscientific.com</span>
+                  </p>
+                </div>
+                <hr class="contactUs-hr" />
+                <div>
+                  <p class="contactUs-text">Place a call to</p>
+                  <p class="contact-us">
+                    <img src="telephone.svg" alt="" />
+                    <span class="ps-2">+2347012197688</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="text-center joint-header">
+          <h3 id="reason">
+            All <span id="scientific-products">Scientific Products</span> in
+            <br />
+            One Place!
+          </h3>
+          <p class="header-paragraph">
+            Shop quality laboratory products from world-renowned brands
+          </p>
+          <form class="search-input" role="search">
+            <input
+              class="me-3 form-control"
+              type="search"
+              placeholder=" &#xF52A; Search Products by name"
+              aria-label="Search"
+            />
+            <button class="btn btn btn-sm search-btn" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div>
+        <div class="text-center">
+          <div>
+            <div class="row mb-sm-5 mx-2 mx-sm-5">
+              <div class="col-md mb-sm-5 px-sm-0 left-text">
+                <div class="line"></div>
+                <h3 class="text-start h3">
+                  Why <br />
+                  ttiscientifics?
+                </h3>
+              </div>
+              <div class="col-md px-2 left-text">
+                <p class="text-start">
+                  Our goal at TTI Scientific is to be the best and most reliable
+                  partner in science by setting the bar for products and
+                  services related to scientific and laboratory facilities. We
+                  are a group of talented, seasoned, and enthusiastic
+                  individuals committed to offering excellent services and a
+                  unique customer experience. We are dedicated to our partners,
+                  customers, and suppliers.
+                </p>
+                <p class="text-start">
+                  We serve a wide range of industry-related clients and uphold
+                  professional relationships with them, including laboratories,
+                  manufacturing firms, oil and gas companies, energy firms,
+                  regulatory organizations, tertiary institutions (this also
+                  includes secondary and primary schools), industries, and
+                  research centers across the country. We also offer
+                  installation support for laboratories in a variety of
+                  institutions and lab facilities.
+                </p>
+              </div>
+            </div>
+            <div class="row py-2 py-md-5 mx-2 mx-sm-5">
+              <div class="col-md-5 left-text">
+                <div class="line"></div>
+                <h3 class="text-start h3">
+                  Choose from <br />
+                  a wide range <br />
+                  of Products
+                </h3>
+                <p class="text-start">
+                  Some of the most well-known names <br />
+                  in science are included in our wide <br />
+                  selection of products.
+                </p>
+                <div class="text-start">
+                  <button class="all-products-btn" type="submit">
+                    See all products
+                    <img src="arrow-right.svg" alt="arrow-right" />
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-7 overflow">
+                <div class="images ps-md-5 ms-md-4 mt-4">
+                  <div class="d-flex">
+                    <div class="green-border">
+                      <img src="Vial.png" class="img-fluid" />
+                      <p class="img-text ms-3">Vials</p>
+                    </div>
+                    <div class="purple-border">
+                      <img src="measuring-jugs.png" class="img-fluid" />
+                      <p class="img-text">Measuring jugs</p>
+                    </div>
+                    <div class="blue-border">
+                      <img src="Volumetricwares.png" class="img-fluid" />
+                      <p class="img-text">Volumetricwares</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="purple-border">
+                      <img src="Beaker.png" class="img-fluid" />
+                      <p class="img-text">Beakers</p>
+                    </div>
+                    <div class="blue-border">
+                      <img src="flasks.png" class="img-fluid flasks" />
+                      <p class="img-text">Flasks</p>
+                    </div>
+                    <div class="green-border">
+                      <img src="tubes.png" class="img-fluid" />
+                      <p class="img-text">Tubes</p>
+                    </div>
+                  </div>
+                  <div class="d-flex">
+                    <div class="blue-border">
+                      <img src="Equipments.png" class="img-fluid" />
+                      <p class="img-text">Equipments</p>
+                    </div>
+                    <div class="green-border">
+                      <img src="Jointed-wares.png" class="img-fluid" />
+                      <p class="img-text">Jointed wares</p>
+                    </div>
+                    <div class="purple-border">
+                      <img src="containers.png" class="img-fluid ms-2" />
+                      <p class="img-text">Containers</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center section-3 my-1 my-md-5 mx-auto">
+          <div>
+            <h3 class="section3-h3">What are you waiting for?</h3>
+            <p>Purchase any Scientific product from us in 3 easy steps</p>
+          </div>
+          <div>
+            <div
+              class="d-md-flex align-items-start justify-content-around mt-4"
+            >
+              <div class="mt-md-3">
+                <img
+                  src="laptop.png"
+                  alt="laptop"
+                  width="100px"
+                  class="mt-md-2"
+                />
+                <p class="pt-3 img2-text align-self-center">
+                  Search and select <br />
+                  Product of choice.
+                </p>
+                <p class="numbers">1</p>
+              </div>
+              <div>
+                <img
+                  src="hands.png"
+                  alt="hands"
+                  width="130px"
+                  class="pt-md-4"
+                />
+                <p class="pt-1 mt-md-1 img2-text align-self-center">
+                  Request a Quote and <br />
+                  finalize deals online.
+                </p>
+                <p class="numbers">2</p>
+              </div>
+              <div>
+                <img src="cart.png" alt="cart" width="90px" class="mt-md-3" />
+                <p class="pt-2 mb-md-3 img2-text align-self-center">
+                  Pay and have your <br />
+                  goods delivered.
+                </p>
+                <p class="numbers">3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div
+          class="d-md-flex justify-content-between align-items-start mx-auto mx-sm-5"
+        >
+          <div class="">
+            <p class="ft-logo text-start">
+              <img src="logo.png" alt="logo" width="48px" />TTI Scientifics
+            </p>
+            <p class="text-start logo-text">
+              We offer industrial laboratory supplies that <br />
+              both meet and surpass customer <br />
+              requirements.
+            </p>
+          </div>
+          <div class="">
+            <ul class="">
+              <li class="mb-3">
+                <a href="#" class="text-decoration-none"
+                  ><img class="ft-icons" src="envelope.svg" alt="tel" />
+                  Nwakorie@ttiscientific.com</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  ><img class="ft-icons" src="telephone.svg" alt="tel" />
+                  +2347012197688</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="text-center-sm">
+            <a href="">See All Our Products</a>
+          </div>
+        </div>
+        <div class="mx-auto mx-sm-5">
+          <hr />
+          <p class="text-center">&copy; ttiscientific. All Rights reserved</p>
+        </div>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
