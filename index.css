@@ -48,7 +48,8 @@ body {
     position: absolute;
     inset: 0;
     z-index: -1;
-    height: fit-content;
+    height: 100%;
+    overflow-x: hidden;
 
 }
 .btn-outline-light{
