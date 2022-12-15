@@ -17,6 +17,12 @@ body {
     font-weight: 700;
     color: #ffffff;
 }
+.navbar-toggler-icon{
+ filter: invert(1);
+}
+.navbar-toggler{
+    border: none;
+}
 
 .brand-logo{
     filter: brightness(0) invert(1);
@@ -30,12 +36,14 @@ body {
   background-blend-mode: color;
    object-fit: cover;
    background-position: bottom;
-   backdrop-filter:blur(8px);
-   -webkit-backdrop-filter:blur(8px);   
+   backdrop-filter: blur(1.5px);
+   -webkit-backdrop-filter:blur(1.5px);
+    
 }
 .header::after{
     content: "";
     backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter:blur(1.5px);  
     background-color:rgba(0, 0, 0, 0.18);
     position: absolute;
     inset: 0;
