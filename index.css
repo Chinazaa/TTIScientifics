@@ -38,6 +38,7 @@ body {
    background-position: bottom;
    backdrop-filter: blur(1.5px);
    -webkit-backdrop-filter:blur(1.5px);
+  
     
 }
 .header::after{
@@ -49,7 +50,7 @@ body {
     inset: 0;
     z-index: -1;
     height: 100%;
-    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 .btn-outline-light{
